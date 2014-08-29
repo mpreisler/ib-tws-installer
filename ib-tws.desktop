@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=IB TWS
+Comment=Interactive Brokers Trading Workstation
+Exec=ib-tws
+Terminal=false

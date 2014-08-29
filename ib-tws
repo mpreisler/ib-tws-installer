@@ -1,0 +1,10 @@
+#!/bin/bash
+
+pushd /opt/IBJts > /dev/null
+
+# IB keeps changing this, if this doesn't work, see:
+# https://www.interactivebrokers.com/en/index.php?f=674&os=unix&ib_entity=llc
+
+java -cp jts.jar:total.2013.jar -Xmx512M -XX:MaxPermSize=128M jclient.LoginFrame .
+
+popd > /dev/null
