@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # if true we will install latest instead of stable, see IB website
-LATEST=true
+LATEST=false
 # if true we will remove pre-existing IBJts in /opt
 REPLACE_IF_EXISTS=true
 
