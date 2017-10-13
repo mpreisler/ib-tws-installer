@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# 2017 and later versions
+rm -r ~/Jts
+rm "~/Desktop/Trader Workstation *.desktop"
+rm "~/.local/share/applications/Trader Workstation *.desktop"
+
+# Old versions
 if [ "$(id -u)" != "0" ]; then
    echo "This script must be run as root"
    exit 1
